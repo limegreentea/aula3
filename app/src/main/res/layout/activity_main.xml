@@ -5,4 +5,15 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"/>
+        tools:context=".MainActivity">
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="340dp"
+            tools:layout_editor_absoluteX="176dp" android:id="@+id/textView"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" tools:layout_editor_absoluteY="497dp"
+            tools:layout_editor_absoluteX="176dp" android:id="@+id/button"/>
+</android.support.constraint.ConstraintLayout>
